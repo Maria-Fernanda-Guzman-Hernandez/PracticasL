@@ -114,7 +114,6 @@ header {
     font-size: 11px;
 }
 
-/* --- 4. EFECTO DE SELECCIÓN EN RESULTADOS --- */
 .aa-Item[aria-selected="true"], 
 .aa-Item:hover {
     background-color: #f0ebf8 !important;
@@ -126,18 +125,14 @@ header {
     font-weight: 600 !important;
 }
 
-/* --- 5. AJUSTES RESPONSIVOS (SOLUCIÓN BORDES Y TAMAÑO) --- */
 @media (max-width: 600px) {
     .autocomplete-container .aa-Form {
-        /* Usamos 92% para que no se pegue a las orillas y se vean los bordes */
         width: 70% !important; 
         max-width: 70% !important;
         height: 42px !important;
         
-        /* Forzamos que mantenga la redondez */
         border-radius: 24px !important; 
         
-        /* Aseguramos que no se "infle" de más */
         margin: 10px auto !important; 
     }
 
@@ -155,12 +150,10 @@ header {
         right: 8px !important;
     }
 
-    /* Ocultamos el texto de ayuda en móviles */
     .search-help-text {
         display: none !important;
     }
 }
-/* --- 6. PANEL DE RESULTADOS --- */
 .aa-Panel {
     background: white !important;
     border-radius: 12px !important;
@@ -188,41 +181,38 @@ header {
 
 .faq-sidebar {
     position: sticky;
-    top: 20px;
+    top: 100px; 
     width: 250px;
     flex-shrink: 0;
-    background-color: #ffffff; 
+    background-color: #ffffff;
     border: 1px solid #d2c8e3;
     border-radius: 8px;
-    padding: 0; /* Eliminamos el padding para que el título llegue a los bordes */
+    padding: 0; 
     box-shadow: 0 2px 4px #0000000d;
-    max-height: 85vh; 
-    display: flex; /* Organización vertical */
+    max-height: calc(100vh - 120px); 
+    display: flex;
     flex-direction: column;
-    overflow: hidden; /* Evita que el borde exterior se desplace */
+    overflow: hidden;
 }
 
 .faq-sidebar h3 {
-    position: sticky;
-    top: 0;
-    z-index: 10;
-    background-color: #ffffff; 
-    color: #4a148c; 
     margin: 0;
-    padding: 15px; /* Recuperamos el espacio interno aquí */
+    padding: 15px;
+    background-color: #ffffff; 
+    color: #4a148c;
     font-size: 20px;
     border-bottom: 2px solid #e5e0f0;
+    z-index: 2;
 }
 
 .faq-sidebar > ul {
     list-style: none;
-    padding: 15px; /* Espacio para los links */
+    padding: 15px; 
     margin: 0;
-    overflow-y: auto; /* Solo la lista tiene scroll */
-    flex-grow: 1; /* Ocupa el espacio restante */
+    overflow-y: auto; 
+    flex-grow: 1; 
 }
 
-/* --- ESTILOS DE LA BARRA DE DESPLAZAMIENTO (Manteniendo tus colores) --- */
 .faq-sidebar > ul::-webkit-scrollbar {
     width: 6px;
 }
@@ -233,15 +223,14 @@ header {
 }
 
 .faq-sidebar > ul::-webkit-scrollbar-thumb {
-    background: rgba(74, 20, 140, 0.25); /* Tu color morado original */
+    background: rgba(74, 20, 140, 0.25); 
     border-radius: 10px;
 }
 
 .faq-sidebar > ul::-webkit-scrollbar-thumb:hover {
-    background: rgba(74, 20, 140, 0.5); /* Más oscuro al pasar el mouse */
+    background: rgba(74, 20, 140, 0.5); 
 }
 
-/* --- AJUSTES PARA MÓVILES --- */
 @media (max-width: 768px) {
     .faq-sidebar {
         width: 100%;
@@ -337,13 +326,11 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Animación para resaltar la sección de destino */
 @keyframes highlight-fade {
-    0% { background-color: rgba(74, 20, 140, 0.2); } /* Tu morado con transparencia */
+    0% { background-color: rgba(74, 20, 140, 0.2); } 
     100% { background-color: transparent; }
 }
 
-/* Esta clase se aplicará al elemento de destino */
 .section-highlight {
     animation: highlight-fade 2s ease-out;
     border-radius: 8px;
@@ -372,6 +359,14 @@ html {
     margin-top: 0; 
     margin-bottom: 20px;
     min-width: 60%; 
+}
+
+[id] {
+    scroll-margin-top: 150px; 
+}
+
+section, h2, h3, .pregunta {
+    scroll-margin-top: 150px;
 }
 
 .sectionBlock {
