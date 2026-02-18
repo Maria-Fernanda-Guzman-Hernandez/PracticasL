@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>FAQs de Aliado</title>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+
+    <div class="modal" id="imageModal" >
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+    </div>
+<body>
+    
+    <div class="fixed-header-container">
+        <div class="top-header">
+            
+        <img class="ImLogo" src="Imag/logo.png">
+        </div>
+        <header>
+            <h1 class="Titulo">Preguntas frecuentes</h1>
+        </header>
+    </div>
+
+    
+    <main>
+        <p class="Expli">
+            Este apartado es un recurso disponible para obtener respuestas rápidas y claras sobre la plataforma.
+            Seleccione una opción de la lista de preguntas frecuentes.
+            Si es un cliente nuevo, le recomendamos revisar los siguientes apartados para utilizar la plataforma de manera eficiente.
+        </p>
+
+
+        <section class="search-section">
+            <div class="autocomplete-container"></div>
+            <div class="search-help-text">
+                Presiona <kbd>Ctrl</kbd> + <kbd>K</kbd> para buscar
+            </div>
+        </section>
+
+        <div class="content-wrapper">
+            
+            <nav class="faq-sidebar">
+                <h3>Secciones</h3>
+                <ul>
+                    <li>
+                        <details class="sidebar-dropdown" open>
+                            <summary>
+                                <a href="#viajes-misiones" class="main-link">Viajes/Misiones.</a>
+                            </summary>
+                            <ul class="submenu">
+                                <li><a href="#crear-mis" class="main-link">¿Cómo crear una misión?</a></li>
+                                <li><a href="#editar-mis" class="main-link">¿Cómo editar una misión ya creada?</a></li>
+                                <li><a href="#iniciar-mis" class="main-link">¿Cómo Iniciar misión?</a></li>
+                                <li><a href="#cerrar-mis">¿Cómo cerrar una misión?</a></li>
+                                <li><a href="#masiva-mis">¿Cómo crear una misión de carga masiva?</a></li>
+                                
+                            </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <details class="sidebar-dropdown">
+                            <summary>
+                                <a href="#control-accesos" class="main-link">Control de accesos</a>
+                            </summary>
+                            <ul class="submenu">
+                                <li><a href="#crear-cero">¿Cómo crear una cita desde cero?</a></li>
+                                <li><a href="#control-masiva">¿Cómo crear una cita de carga masiva?</a></li>
+                                <li><a href="#editControl">¿Cómo editar una cita?</a></li>
+                                <li><a href="#controlElim">¿Cómo eliminar una cita?</a></li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <details class="sidebar-dropdown">
+                            <summary>
+                                <a href="#despacho-digi" class="main-link">Despacho digitalizado</a>
+                            </summary>
+                            <ul class="submenu">
+                                <li><a href="#digi_cer">¿Cómo crear una cita desde?</a></li>
+                                <li><a href="#digi_masiva">¿Cómo crear una?</a></li>
+                            </ul>
+                        </details>
+                    </li>
+
+                    <li>
+                        <details class="sidebar-dropdown">
+                            <summary>
+                                <a href="#tablero-aeropuerto" class="main-link">Tablero aeropuerto</a>
+                            </summary>
+                            <ul class="submenu">
+                                <li><a href="#uso-tablero">¿Cómo se utiliza el Tablero aeropuerto?</a></li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <details class="sidebar-dropdown">
+                            <summary>
+                                <a href="#vista-mapa" class="main-link">Vista Mapa</a>
+                            </summary>
+                            <ul class="submenu">
+                                <li><a href="#uso-vista-mapa">¿Cómo se utiliza la Vista Mapa?</a></li>
+                            </ul>
+                        </details>
+                    </li>                   
+                    <li>
+                        <details class="sidebar-dropdown">
+                            <summary>
+                                <a href="#alertas-neuralgicas" class="main-link">Alertas neurálgicas</a>
+                            </summary>
+                            <ul class="submenu">
+                                <li><a href="#uso-alertas-neu">¿Cómo se utiliza Alertas neurálgicas?</a></li>
+                            </ul>
+                        </details>
+                    </li>                  
+                    <li>
+                        <details class="sidebar-dropdown">
+                            <summary>
+                                <a href="#bitacora-viaje" class="main-link">Bitácora de control de misión</a>
+                            </summary>
+                            <ul class="submenu">
+                                <li><a href="#uso-bitacora-viaje">¿Cómo se utiliza la Bitácora de control de misión?</a></li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li>                    
+                        <details class="sidebar-dropdown">
+                            <summary>
+                                <a href="#bitacora-nom087" class="main-link">Bitácora NOM087</a>
+                            </summary>
+                            <ul class="submenu">
+                                <li><a href="#uso-nom087">¿Cómo se utiliza la Bitácora NOM087?</a></li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li>                    
+                        <details class="sidebar-dropdown">
+                            <summary>
+                                <a href="#alertas-inteligentes" class="main-link">Alertas inteligentes</a>
+                            </summary>
+                            <ul class="submenu">
+                                <li><a href="#uso-alertas-int">¿Cómo se utiliza Alertas inteligentes?</a></li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li>                    
+                        <details class="sidebar-dropdown">
+                            <summary>
+                                <a href="#co-piloto-ia" class="main-link">Co-piloto de Inteligencia Artificial</a>
+                            </summary>
+                            <ul class="submenu">
+                                <li><a href="#uso-copiloto">¿Cómo se utiliza el Co-piloto de IA?</a></li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <details class="sidebar-dropdown">
+                            <summary>
+                                <a href="#catalogo-activos" class="main-link">Catálogo de Activos</a>
+                            </summary>
+                            <ul class="submenu">
+                                <li><a href="#catalogoexis">¿Cómo visualizar la lista de cátalogo existente?</a></li>
+                                <li><a href="#catalogo-activos-crear">¿Cómo crear uno desde cero?</a></li>
+                                <li><a href="#catalogoCrearMas">¿Cómo crear desde carga masiva?</a></li>
+                            </ul>
+                        </details>
+                    <li>
+                        <details class="sidebar-dropdown">
+                            <summary>
+                                <a href="#metricas-inteligentes" class="main-link">Métricas Inteligentes</a>
+                            </summary>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="#vis-metricas">¿Cómo visualizar las métricas?</a>
+                                </li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <details class="sidebar-dropdown">
+                            <summary>
+                                <a href="#Visibilidad" class="main-link">Visibilidad controlada</a>
+                            </summary>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="#VisiFuncio">¿Cómo funciona?</a>
+                                </li>
+                            </ul>
+                        </details>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <div class="Introcontrol">
+                <div class="sectionBlock">
+                    <h3 id="viajes-misiones"> Viajes/Misiones</h3> 
+                    <div class="faq-item">
+                        <h4 id="crear-mis">¿Cómo crear una misión?</h4>
+                        <p>Siga estos pasos para crear una nueva misión:</p>
+                        
+                        <ol>
+                            <li>
+                                <p>Seleccione el ícono de la sección <strong>"Misiones"</strong>. 
+                                <img src="Imag/misión.png" ></p>
+                            </li>
+                            <li>
+                                <p>Haga clic en el botón de <strong>"Nueva misión"</strong>. 
+                                <img src="Imag/crear.png" id="img-peque"></p>
+                            </li>
+                            <li>
+                                <!--IMAGEN CON ZOOM-->
+                                <p>En el recuadro que aparece, seleccione la opción <strong>"Crear desde cero"</strong>. 
+                                <img src="Imag/cremis.png" ></p>
+                                <img src="Imag/misio.png" alt="Pantalla de creación de Misión" id="img-grand" class="zoomable-image">
+                                <p><strong>Nota:</strong> Si desea crear una misión por carga masiva, <a href="#masiva-mis">haga clic aquí.</a></p>
+                                
+                            </li>
+                        </ol>
+                        
+                        <h5>Definición de Ruta</h5>
+                        <ol start="4">
+                            <li>
+                                <p>En la sección <strong>"Ruta de la misión"</strong>, seleccione <strong>"punto de origen"</strong>. 
+                                
+                            </li>
+                            <li>
+                                <p>Complete los campos para el punto de partida (inicio del viaje):</p>
+                                <ul>
+                                    <li>Agregue la <strong>Ubicación de partida</strong>.</li>
+                                    <li>Seleccione la <strong>Hora y fecha estimada</strong> para el inicio del viaje.</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>Una vez llenados todos los campos, el botón <strong>"Guardar"</strong> se habilitará. Haga clic en él.</p>
+
+                                <img src="Imag/origen.png" alt="Pantalla añadir punto de origen" id="img-grand" class="zoomable-image">
+                                
+
+
+                            </li>
+                            <li>
+                                <p>Añada su <strong>primer destino</strong> eligiendo la sección <strong>Destino</strong>, siguiendo el mismo proceso que el punto de partida.</p>
+                                <p>Una vez añadido el primer destino, si desea agregar más paradas, tendrá que seleccionar <strong>"Añadir destino"</strong>, podrá asignar los destinos necesarios.</p>
+                                <img src="Imag/aña.png" alt="Puntos de destino" id="img-grand" class="zoomable-image">
+                                
+                            </li>
+                        </ol>
+                        <h5>Geo Ruta</h5>
+                        <ol start="8">
+                            <li>Añada la <strong>Geo Ruta</strong> en su sección, tendrá que dar clic en subir archico archivos permitidos (.kml, .geojson)</li>
+                            <img src="Imag/geo.png" id="img-grand" class="zoomable-image">
+                        </ol>
+                        
+                        <h5>Asignación de Recursos y Finalización</h5>
+                        <ol start="9">
+                            <li>Añada los <strong>Activos</strong> requeridos para la misión, seleccionando el botón <strong>Añadir activos</strong>
+
+                            Tendrá que asignar la organización a la que pertenece y su tipo de activo, ya que los asigno se habilitrá el botón <strong>Guardar activo</strong>
+
+                            <img src="Imag/activos.png" id="img-grand" class="zoomable-image">
+                        </li>
+                            <li>Añada los <strong>Agentes</strong> (personal) que se encargara de la misión. 
+                                <p>Seleccionará la empresa a la que pertenece y el nombre del agente(el botón "Guardar" se habilita al llenar los campos).</p>
+                                
+                                <img src="Imag/Agente.png" id="img-grand" class="zoomable-image">
+
+                            </li>
+                            <li>
+                                <p>Establezca el <strong>Inicio y el Cierre</strong> programados para la misión.</p>
+                                <img src="Imag/inicio.png" id="img-grand" class="zoomable-image">
+                            </li>
+                            <li>
+                                <p>Agregue un <strong>ID</strong> (Número único) para identificar y facilitar la búsqueda de su misión.</p>
+                            </li>
+                            <li>
+                                <p>Una vez agregado el ID, el botón <strong>"Guardar"</strong> se habilitará. Haga clic para finalizar y dejar su misión lista.</p>
+                                <img src="Imag/misionguar.png" alt="Botón Guardar Misión" id="img-grand" class="zoomable-image">
+                            </li>
+                        </ol>
+
+                        
+                        <p>También podría interesarle: 
+                        <a href="#iniciar-mis">Iniciar Misión</a> | 
+                        <a href="#editar-mis">Editar Misión</a> | 
+                        <a href="#cerrar-mis">Cerrar Misión</a> | 
+                        <a href="#masiva-mis">Crear misión de carga Masiva</a></p>
+
+
+                        <div class="comentarios-dinamicos" data-section="CraerMision" data-titulo="Craer Misión"></div>
+
+
+                    </div>
+
+                    <hr>
+            
+                <!--Editar misión-->
+                    <div class="faq-item">
+                        <h4 id="editar-mis">¿Cómo editar una misión ya creada?</h4>
+
+                        <p>Si necesita cambiar algún punto de partida, añadir destinos, activos, agentes o el inicio y cierre programado de la misión, siga estos pasos:</p>
+
+                        <ol>
+                            <li>
+                                <p>Ubique su misión. Puede buscarla en el recuadro <strong>"Búsqueda"</strong> ingresando el ID de la misión, la organización o el origen.</p>
+                                <img src="Imag/Busqueda.png" id="img-medium" class="zoomable-image">
+                            </li>
+                            <li>
+                                <p>Una vez ubicada, acerque el cursor a la misión para habilitar los íconos de acción y seleccione el ícono de <strong>Editar</strong>.</p>
+                                <img src="Imag/edi.png" >
+                                <img src="Imag/editarr.png" alt="Icono editar" id="img-grand" class="zoomable-image">
+                            </li>
+                            <li>
+                                <p>Se mostrará la sección <strong>"Editar misión"</strong>. Aquí podrá elegir la opción específica que requiera modificar.</p>
+                                <img src="Imag/editar.png" id="img-grand" class="zoomable-image">
+                            </li>
+                        </ol>
+
+                        <h5>Modificación de Puntos y Destinos</h5>
+                        <ol start="4">
+                            <li>
+                                <p><strong>Para modificar el punto de partida:</strong> Acerque el cursor al punto ya agregado y seleccione la flecha para abrir las opciones de edición.</p>
+                                <img src="Imag/flecha.png" >
+                                
+                            </li>
+                            <li>
+                                <p>Realice los cambios necesarios:</p>
+                                <ul>
+                                  
+                                    <li>Para cambiar la ubicación, seleccione el nuevo punto requerido.</li>
+                                    <li>Para cambiar el horario, seleccione <strong>"Fecha y hora nueva"</strong>.</li>
+                                    <p><strong>Nota:</strong> Si sólo desea añadir un nuevo destino selesccione <strong>Añadir destino</strong> </p>
+
+                                    
+                                </ul>
+                            </li>
+                            <li>
+                                <p>Una vez terminadas las modificaciones, haga clic en el botón <strong>"Guardar origen"</strong>.</p>
+                                <img src="Imag/guaor.png"  id="img-medium">
+                                <img src="Imag/nuevori.png" id="img-grand" class="zoomable-image">
+                            </li>
+
+                            <h5>Geo Ruta</h5>
+                            <ol start="7">
+                                <li>Para editar la <strong>Geo Ruta</strong>, tendrá que eliminar el archivo que había subido anterior mente y seleccionar su nuevo documento, los archico archivos permitidos (.kml, .geojson)</li>
+                                <img src="Imag/edigeo.png" id="img-grand" class="zoomable-image">
+                            </ol>
+
+
+                        <h5>Asignación de Recursos y Tiempos</h5>
+
+                        <ol start="8">
+                            <li>
+                                <p><strong>Para añadir/cambiar un activo:</strong> Seleccione el botón <strong>"Añadir activo" o seleccione la flecha </strong>que aparece al acercar el cursor al activo guardado anteriormente, para abrir las opciones de editar el activo.</p>
+                                <img src="Imag/añad.png" id="img-medium">
+                                <p>Indique la organización, seleccione el activo y haga clic en <strong>"Guardar activo"</strong>.</p>
+                                <img src="Imag/activoejm.png" id="img-grand" class="zoomable-image">
+                                <p>Si desea eliminar el activo, tendrá que sleccionar la x que sale al acercar el cursor al activo ya existente</p>
+                                <img src="Imag/activox.png" id="img-grand" class="zoomable-image">
+                            </li>
+                            <li>
+                                <p><strong>Para añadir/modificar un agente:</strong> Diríjase a la sección <strong>"Añadir Agente"</strong>o seleccione nuevamente la <strong>flecha</strong> que aparece al acercar el cursor al agente ya existente.</p>
+                                <img src="Imag/añaag.png" id="img-medium">
+                                <p>Seleccione la organización, asigne al agente y haga clic en <strong>"Guardar agente"</strong>.</p>
+                                <img src="Imag/Agente.png" id="img-grand" class="zoomable-image">
+                                <p>Si desea eliminar el agente, tendrá que sleccionar la x que sale al acercar el cursor al activo ya existente</p>
+                                <img src="Imag/agentex.png" id="img-grand" class="zoomable-image">
+                            </li>
+                            <li>
+                                <p><strong>Inicio y Cierre programado:</strong> Primero asegúrese de tener un activo y un agente asignados, ya que sin estos no se permite guardar un inicio y cierre programado. 
+                                    Luego, en la sección <strong>“Inicio y Cierre del programa”</strong>, defina las nuevas fechas y horas.</p>
+                                <img src="Imag/horanuev.png" id="img-grand" class="zoomable-image">
+                            </li>
+                        </ol>
+
+                        <h5>Finalizar Cambios</h5>
+                        <ol start="11">
+                            <li>
+                                <p>Una vez realizados todos los cambios, busque y haga clic en el botón <strong>"Actualizar misión"</strong> para guardar la nueva información.</p>
+                                <img src="Imag/actu.png" id="img-medium">
+                            </li>
+                        </ol>
+
+                        <p>También podría interesarle: 
+                            <a href="#crear-mis">Crear Misión</a> | 
+                            <a href="#iniciar-mis">Iniciar Misión</a> | 
+                            <a href="#cerrar-mis">Cerrar Misión</a> | 
+                            <a href="#masiva-mis">Crear misión de Carga Masiva</a>
+                        </p>
+                        <div class="comentarios-dinamicos" data-section="EditarMision" data-titulo="Editar Misión"></div>
+
+
+                    </div>
+
+                    <hr>
+                
+                <!--Iniciar misión-->
+                    <div class="faq-item">
+                        <h4 id="iniciar-mis">¿Cómo iniar una misión?</h4>
+                                <p>Siga estos pasos para poner en marcha una misión ya creada:</p>
+
+                            <ol>
+                                <li>
+                                    <p>Ubique su misión en el sistema. Puede utilizar el recuadro de <strong>"Búsqueda"</strong> e ingresar el ID de la misión, la organización o el lugar de origen.</p>
+                                    <img src="Imag/Busqueda.png" id="img-medium" class="zoomable-image">
+                                </li>
+                                <li>
+                                    <p>Una vez localizada la misión, acerque el cursor a la fila correspondiente para habilitar los iconos de acción.</p>
+                                </li>
+                                <li>
+                                    <p>Haga clic en el icono de <strong>"Iniciar misión"</strong> para comenzar el seguimiento.</p>
+                                    <img src="Imag/icoini.png" >
+                                    <img src="Imag/ini.png" alt="Pantalla de inicio de misión" id="img-grand" class="zoomable-image">
+                                </li>
+                            </ol>
+
+                        <p>También podría interesarle 
+                                <a href="#crear-mis">Crear misión</a> | 
+                                <a href="#editar-mis">Editar Misión</a> | 
+                                <a href="#cerrar-mis">Cerrar Misión</a> | 
+                                <a href="#masiva-mis">Crear misión de Carga Masiva</a>
+                            </p>
+
+                            <div class="comentarios-dinamicos" data-section="IniciarMision" data-titulo="Iniciar Misión"></div>
+
+                    </div>
+
+                    <hr>
+
+                    <!--Cerra misión-->
+                    <div class="faq-item">
+                        <h4 id="cerrar-mis">¿Cómo cerrar una misión?</h4>
+                        <p>Siga estos pasos para cerrar una misión ya creada:</p>
+
+                        <ol>
+                            <li>
+                                <p>Ubique su misión en el sistema. Puede utilizar el recuadro de <strong>"Búsqueda"</strong> e ingresar el ID de la misión, la organización o el lugar de origen.</p>
+                                <img src="Imag/Busqueda.png" id="img-medium" class="zoomable-image">
+                            </li>
+                            <li>
+                                <p>Una vez localizada la misión, acerque el cursor a la fila correspondiente para habilitar los iconos de acción.</p>
+                            </li>
+                            <li>
+                                <p>Haga clic en el icono de <strong>"Cancelar"</strong> para cerrar la misión.</p>
+                                <img src="Imag/cancelar.png" >
+                                <img src="Imag/cancelarmis.png" alt="Pantalla de inicio de misión" id="img-grand" class="zoomable-image">
+                            </li>
+                        </ol>
+
+                        <a href="#crear-mis">Crear misión</a> | 
+                        <a href="#iniciar-mis">Iniciar Misión</a> |
+                        <a href="#editar-mis">Editar Misión</a> |  
+                        <a href="#masiva-mis">Crear misión de Carga Masiva</a></p>
+
+                                        <!--=========================-->
+                                        <!-- prueba de comentarios 2 -->
+                                        <!--=========================-->
+                                <div class="comentarios-dinamicos" data-section="CerrarMsion" data-titulo="Cerrar misión"></div>
+                    
+                    </div>
+                    <hr>
+                    
+                    <!--crear misión de carga masiva-->
+                    <div class="faq-item">
+                        <h4 id="masiva-mis">¿Cómo crear una misión de carga masiva?</h4>
+                        <p>Siga estos pasos para crear una nueva misión:</p>
+                        
+                        <ol>
+                            <li>
+                                <p>Seleccione el ícono de la sección <strong>"Misiones"</strong>. 
+                                <img src="Imag/misión.png" ></p>
+                            </li>
+                            <li>
+                                <p>Haga clic en el botón de <strong>"Crear misión"</strong>. 
+                                <img src="Imag/crear.png" id="img-peque"></p>
+                            </li>
+                            <li>
+                                <p>En el recuadro que aparece, seleccione la opción <strong>"Nueva carga masiva"</strong>. 
+                                <img src="Imag/misionmasiva.png" alt="Pantalla de creación de Misión" id="img-grand" class="zoomable-image">
+                                <p><strong>Nota:</strong> Si desea crear una misión normal, <a href="#crear-mis">haga clic aquí.</a></p>
+                                
+                            </li>
+                            <li>
+                                <p>Después tendrá que cargar el documento para su carga masiva, en la sección <strong>"Cargar documentos"</strong>, los archivos permitidos son .xlsx, .csv.</p>
+                                <p>Ya que haya subido su documento aparecera una vista previa del documento que utilizará, esto para que verifique si es el documento correcto.</p>
+                            </li>
+                            <li>
+                                <p>Una vez que cargo y haya verificado que sea el archivo correcto, seleccione procesar archivo</p>
+                                <img src="Imag/cargamasiva.png" id="img-grand" class="zoomable-image">
+                                <p>Después de  procesar el archivo, le aparecerá una pantallado donde se mostrará si existe algún error y el estado en el que se encuentré el archivo de la misión</p>
+                                <img src="Imag/vistamas.png" id="img-grand" class="zoomable-image">
+                            
+                                <p>Si su archivo cuenta con errores, podrá seleccionar cualquier apartado de la sección "estado" para poder visualizar los errores y poder corregirlos</p>
+                                <img src="Imag/inter.png" id="img-grand" class="zoomable-image">
+                            </li>
+                            <li>
+                                <p> Una vez que lo mandó a la visualización de sus errores podrá modificarlos, seleccionando el apartado que desee </p>
+                                <img src="Imag/errormasi.png" id="img-grand" class="zoomable-image">
+                                <p>Si desea cambiar el ID de su misión puede darle i clic al ID con el que ya cuenta y agregar el nuevo ID</p>
+                                <p>Para cambiar/agregar destinos seleccione el destino de la misión deseada, se abrirá el apartado donde puede modificar el destino y "añadir un destino"</p>
+                                <img src="Imag/destinmas.png" id="img-grand" class="zoomable-image">
+                                <p>Se abrirá el aparatado, donde le mostrará la lista de los destinos guardados, también podré modificar la fecha y hora programada de un destino ya existente o podrá agregar uno nuevo en la parte de "añadir destino"</p>
+                                <img src="Imag/destinmas.png" id="img-grand" class="zoomable-image">
+                                <p>De la misma forma puede agregar agentes, activos o eliminar una misión que se haya cargado</p>
+                            </li> 
+                            <li>
+                                <p>Una vez modificados lo errores, podrá procesar las misiones, le aparecerá un mensaje de confirmación, una vez que este seguro de que es correcta la información podrá darle clic al botoón "Sí, cargar misiones" </p>
+                                <img src="Imag/procesar.png" id="img-grand" class="zoomable-image">
+                            </li>
+                            <li>
+                                <p>Podrá visualizar las misiones creadas en el apartado de misiones</p>
+                                <img src="Imag/masi.png" id="img-grand" class="zoomable-image">
+                            </li>
+
+                        </ol>
+                        <a href="#crear-mis">Crear misión</a> | 
+                        <a href="#iniciar-mis">Iniciar Misión</a> |
+                        <a href="#editar-mis">Editar Misión</a> | 
+                        <a href="#cerrar-mis">Cerrar Misión</a>
+                    
+                        <div class="comentarios-dinamicos" data-section="MisionMasiva" data-titulo="Misiones masivas"></div>
+
+                    </div>
+                </div>                 
+
+
+        <!--Control de accesos-->                        
+                
+                <div class="sectionBlock">
+                    <h3 id="control-accesos"> Control de accesos</h3> 
+                    <div class="faq-item">
+                        <h4 id="crear-cero">¿Cómo crear una cita desde cero?</h4>
+                        <p>Siga estos pasos para crear una nueva misión:</p>
+                        
+                        <ol>
+                        
+                            <li>
+                                <p>Seleccione el ícono de la sección <strong>"Citas"</strong>. 
+                                <img src="Imag/citas.png" ></p>
+                            </li>
+                            <li>
+                                <p>Haga clic en el botón de <strong>"Nueva Cita"</strong>. 
+                                <img src="Imag/crearcit.png" id="img-peque"></p>
+                                <p><strong>Nota:</strong> Si desea crear una cita por carga masiva, <a href="#control-masiva">haga clic aquí.</a></p>
+
+                            </li>
+                            <li>
+                                <p>En el recuadro que aparece seleccione <strong>"Crear desde cero"</strong></p>
+                                <img src="Imag/desdecero.png">
+                                <img src="Imag/citacon.png" id="img-grand" class="zoomable-image">
+
+                            </li>
+                            <li>
+                                <p>Tendrá que llenar el siguiente recuador, de acuerdo a sus necesidades</p>
+                                <img src="Imag/citan.png" id="img-grandd"class="zoomable-imageg">
+                            </li>
+                            <li>
+                                <p>Posteriormente tendrá que seleccionar <strong>"Añadir invitados"</strong> </p>
+                                <img src="Imag/invi.png">
+                                <p>Eliga la organización que desee, y dele clic al boton enviar</p>
+                                <img src="Imag/añainvi.png" id="img-medium" class="zoomable-image">
+                            </li>
+                            <li>
+                                <p>Una vez enviada la cita aparecerá esta imagén</p>
+                                <img src="Imag/cita.png" id="img-grand" class="zoomable-image">
+                                <p>El invitado le asignará un agente y activos </p>
+                            </li>
+                        </ol>
+
+                        <div class="comentarios-dinamicos" data-section="CitaCero" data-titulo="Cita desde Cero"></div>
+
+                    </div>
+                    
+                    <!--Cita carga masiva-->
+
+                    <hr>
+
+                    <div class="faq-item">
+                        <h4 id="control-masiva">¿Cómo crear una cita de carga masiva?</h4>
+                        <ol> 
+                            <li>
+                                    <p>Seleccione el ícono de la sección <strong>"Citas"</strong>. 
+                                    <img src="Imag/citas.png" ></p>
+                                </li>
+                                <li>
+                                    <p>Haga clic en el botón de <strong>"Nueva Cita"</strong>. 
+                                    <img src="Imag/crearcit.png" ></p>
+                                </li>
+                                <li>
+                                    <p>Elija la opción <strong>"Nueva cargar masiva"</strong></p>
+                                    <img src="Imag/masci.png">
+                                </li>
+                                <li>
+                                    <p>Tendrá que subir el archivo que se ocupará para esta cita, aparecerá una vista previa del documento, esto para verificar si su archico es correcto</p>
+                                    <img src="Imag/citmas.png" id="img-grand" class="zoomable-image">
+                                    <p>Una vez que se haya verificado que es el archivo correcto, tendrá que seleccionar el botón <strong>"Procesar archivo"</strong></p>
+                                </li>
+                                <li>
+                                <p>Le mostrará la pantalla donde podrá ver si alguna de sus misiones tiene algún error y podrá cambiarlos eligiendo el estado de su misión</p>
+                                <img src="Imag/citmasiva.png" id="img-grand" class="zoomable-image"> 
+                                <p>Al elegir el estado de la misión, se mostrará la siguiente pantalla, donde le mostrará los errores que podrá cambiar.</p>
+                                <img src="Imag/errores.png" id="img-grand" class="zoomable-image">
+                                </li>
+                                <li>
+                                    <p>Una vez corregido los errores, seleccionará el botón procesar citas</p>
+                                    <img src="Imag/procesarmas.png" id="img-grand" class="zoomable-image">
+                                    <p>Le aparecerá un mensaje de confirmación para subir todas las citas, ya que este seguro tendrá que elegir el boton <strong>Sí, cargar citas</strong> </p>
+                                    <p>hecho esto, sus citas apareceran en el apartado de citas</p>
+                                </li>
+                        </ol>
+                        <div class="comentarios-dinamicos" data-section="CitaCMasiva" data-titulo="Cita de carga masiva"></div>
+
+                    </div>
+
+                    <hr>
+                    
+                    <!--Editar cita-->
+                    <div class="faq-item"> 
+                        <h4 id="editControl">¿Cómo editar una cita ya creada?</h4>
+                         <ol>
+                            <li>
+                                <p>Diríjase a la sección de citas y localice su cita programada, y elija el ícono del lápiz </p>
+                                <img src="Imag/cita.png" id="img-grand" class="zoomable-image">
+                            </li>
+                            <li>
+                            <P>Le aparecerá la misma pantalla que cuando crea una cita nueva, dirijase a los campos que quiera cambiar </P> 
+                            </li>
+                        </ol>
+                        <div class="comentarios-dinamicos" data-section="EditCita" data-titulo="edición de cita creada"></div>
+
+                    </div>
+
+                    <hr>
+
+                    <!--Eliminar cita-->
+
+                    <div class="faq-item">       
+                        <h4 id="controlElim">¿Cómo eliminar una cita ya creada?</h4> 
+                                 <ol>
+                                    <li>
+                                        <p>Diríjase a la sección de citas y localice su cita programada, y elija el ícono del bote de basura </p>
+                                        <img src="Imag/cita.png" id="img-grand" class="zoomable-image">
+                                    </li>
+                                    <li>
+                                    <P>Le aparecerá un mensaje de confirmación, cuando este seguro de que sea la cita que quiere eliminar, tendrá que darle clic al botón de <strong>Eliminar</strong> </P> 
+                                        <img src="Imag/eliminarcontr.png" id="img-grand" class="zoomable-image">
+                                    </li>
+
+                                </ol>
+                            <div class="comentarios-dinamicos" data-section="ElimCIta" data-titulo="eliminar una cita"></div>
+
+                    </div>
+                </div>
+
+
+                <!--Despacho digitalizado-->
+                <div class="sectionBlock">
+                    <h3 id="despacho-digi"> Despacho Digitalizado</h3>
+                    <div class="faq-item"> 
+                        <h4 id="uso-despacho">¿Cómo se utiliza el Despacho Digitalizado?</h4>
+                        <ol>
+                            <li>
+                                <p>Como primer paso debe de iniciar sesión, iniciada la sesión dirigirse a <strong>Escanear un viaje</strong></p>
+                                    <img src="Imag/despachoviaj.png" class="img-cel" alt="Captura de despacho de viaje">                            
+                            </li>
+                            <li>
+                                <p>Coloque el ID de la misión que desee digitalizar</p>
+                                    <img src="Imag/iddespacho.png" class="img-cel">
+                                <p>Una vez localizada la misión, tendrá que darle clic al botón <strong>Comenzar escaneo</strong></p>
+                            </li>
+                            <li>
+                                <p>Añadirá el transporte que se encuentrán utilizando para la misión, escaneará el qr del transporte o lo puede añadir manualmente (si es de forma manual debe agregar la organización y el activo)</p>
+                                <img src="Imag/qrdespacho.png" class="img-cel"><img src="Imag/manual.png" class="img-cel">
+                                <p>Una vez escaneado el transporte que se utilizó podrá agregar los agentes que estén a cargo de la misión </p>
+                                <img src="Imag/comenzarescaneo.png" class="img-cel">
+                            </li>
+                            <li>
+                                <p>Ya que agrego los transportes correctos y los agentes de la misión, seleccione el botón terminar escaneo</p>
+                                <img src="Imag/terminaeescane.png" class="img-cel">
+                            </li>
+                        </ol>
+                        <div class="comentarios-dinamicos" data-section="DespachoDig" data-titulo="Despacho digitalizado"></div>
+
+                    </div>
+                </div>
+
+                <!--Tablero aeropuerto-->
+                <div class="sectionBlock">
+                    <h3 id="tablero-aeropuerto"> Tablero aeropuerto </h3> 
+                    <div class="faq-item">
+                        <h4 id="uso-tablero">¿Cómo se utiliza el Tablero aeropuerto?</h4>
+                        <ol>
+                        <li>
+                            <p>Seleccione el ícono de la sección <strong>"Misiones"</strong>. 
+                            <img src="Imag/misión.png" ></p>
+                        </li>
+
+                        <li>
+                            <p>Ubique su misión. Puede buscarla en el recuadro <strong>"Búsqueda"</strong> ingresando el ID de la misión, la organización o el origen.</p>
+                            <img src="Imag/Busqueda.png" id="img-medium" class="zoomable-image">
+                        </li>
+                        <li>
+                            <p>Una vez ubicada, acerque el cursor a la misión para habilitar los íconos de acción y seleccione el ícono de <strong>Detalle</strong>.</p>
+                            <img src="Imag/detalle.png" id="img-grand" class="zoomable-image">
+                        </li>
+                        <li>
+                            <p>Podrá visualizar el recorrido de su misión o iniciar una conversación</p>
+                            <img src="Imag/vistam.png" id="img-grand" class="zoomable-image">
+                        </li>
+                    </ol>
+                    </div>
+                    <div class="comentarios-dinamicos" data-section="TableroAero" data-titulo="Tablero Aeropuerto"></div>
+
+                </div> 
+
+                <!--Vista mapa-->
+                <div class="sectionBlock">
+                    <h3 id="vista-mapa"> Vista Mapa </h3> 
+                    <div class="faq-item">
+                        <h4 id="uso-vista-mapa">¿Cómo visualizar la vista del mapa?</h4>
+                        <ol>
+                        <li>
+                            <p>Tendrá que ir a la sección del ícono mapa</p>
+                            <img src="Imag/mapa.png">
+                        </li>
+                        <li>
+                            <p> En la siguiente pantalla podrá visualizar la misión que desee, colocando el ID de la misión y su estatus</p>
+                            <img src="Imag/mapav.png" id="img-grand" class="zoomable-image">
+                        </li>
+                    </ol>
+                    </div>
+                    <div class="comentarios-dinamicos" data-section="VistaMapa" data-titulo="vista mapa"></div>
+
+                </div> 
+
+                <!--Alertas neurálgicas-->
+                <div class="sectionBlock">
+                    <h3 id="alertas-neuralgicas"> Alertas neurálgicas </h3> 
+                    <div class="faq-item">
+                        <h4 id="uso-alertas-neu">¿Cómo se utiliza Alertas neurálgicas?</h4>
+                        <ol>
+                         <li>
+                        <p>En la sección de mapa, del lado derecho, hasta abajo, podrá encontrar el botón de 
+                        mostrar/ocultar incidentes, estos ayudan a ver si puede tener ciertos restrasos 
+                        en su camino o si es posible evitarlos con otra ruta</p>
+                        <img src="Imag/alertaneu.png" id="img-grand" class="zoomable-image">
+                    </li>
+                    <li>
+                        <p>Si en el camino que se le muestra se encuentra algún inconveniente, podrá buscar una rula alterna</p>
+                        <p>Tendrá que abrir su misión y buscar el ícono de "Ruta alternativa"</p>
+                        <img src="Imag/alterna.png" id="img-grand" class="zoomable-image">
+                        <p>Le aparecerá la ruta que puede tomar</p>
+                        <img src="Imag/directa.png" id="img-grand" class="zoomable-image">
+                    </li>
+
+                    </ol>
+
+                    </div>
+                     <div class="comentarios-dinamicos" data-section="AlertasNe" data-titulo="alertas neurálgicas"></div>
+
+                </div> 
+
+                <!--Bitácora de misiones-->
+                <div class="sectionBlock">
+                    <h3 id="bitacora-viaje"> Bitácora digital de control misiones </h3> 
+                    <div class="faq-item">
+                        <h4 id="uso-bitacora-viaje">¿Cómo se utiliza la Bitácora de control de misiones?</h4>
+                        <ol>
+                        <li>
+                            <p>Seleccione el ícono de la sección <strong>"Misiones"</strong>. 
+                            <img src="Imag/misión.png" ></p>
+                        </li>
+
+                        <li>
+                            <p>Ubique su misión. Puede buscarla en el recuadro <strong>"Búsqueda"</strong> ingresando el ID de la misión, la organización o el origen.</p>
+                            <img src="Imag/Busqueda.png" id="img-medium" class="zoomable-image">
+                        </li>
+                        <li>
+                            <p>Una vez ubicada, acerque el cursor a la misión para habilitar los íconos de acción y seleccione el ícono de <strong>Detalle</strong>.</p>
+                            <img src="Imag/detalle.png" id="img-grand" class="zoomable-image">
+                        </li>
+                        <li>
+                            <p> ya que se encuentra abierto el mapa de detalle, del lado izquiero logrará ver la <strong>Bitácora detallada</strong></p>
+                            <img src="Imag/bitacoracom.png" id="img-grand" class="zoomable-image">
+                            <P>En está sección podrá visualizar los detalles como Paradas no autorizadas, si ya llego a algún destino, desvíos de rutas, etc.
+                                Puede buscar detalles especificos seleccionando la parte de eventos, así agilizará su busqueda.
+                            </P>
+                        </li>
+                    </ol>
+                    </div>
+                        <div class="comentarios-dinamicos" data-section="BitControlV" data-titulo="bitácora control de misiones"></div>
+
+                </div>
+
+                <!--Bitácora NOM087-->
+                <div class="sectionBlock">
+                    <h3 id="bitacora-nom087"> Bitácora NOM087 </h3> 
+                    <div class="faq-item">
+                        <h4 id="uso-nom087">¿Cómo se utiliza la Bitácora NOM087?</h4>
+                        <ol>
+                        <li>
+                            <p>Seleccione el ícono de la sección <strong>"Misiones"</strong>. 
+                            <img src="Imag/misión.png" ></p>
+                        </li>
+
+                        <li>
+                            <p>Ubique su misión. Puede buscarla en el recuadro <strong>"Búsqueda"</strong> ingresando el ID de la misión, la organización o el origen.</p>
+                            <img src="Imag/Busqueda.png" id="img-medium" class="zoomable-image">
+                        </li>
+                        <li>
+                            <p>Una vez ubicada, acerque el cursor a la misión para habilitar los íconos de acción y seleccione el ícono de <strong>Detalle</strong>.</p>
+                            <img src="Imag/detalle.png" id="img-grand" class="zoomable-image">
+                        </li>
+                        <li>
+                            <p> Ya que se encuentra abierto el mapa de detalle, del lado izquiero logrará ver la <strong>Bitácora detallada</strong></p>
+                            <img src="Imag/bitacoracom.png" id="img-grand" class="zoomable-image">
+                            </P>
+                        </li>
+                        <li>
+                            <p>Al darle clic a bitacora detallada se desplazará un cuadro que le permitirá seleccionar <strong>Bitácora NOM087</strong>, le mostrará todos los detalles de la misión</p>
+                            <img src="Imag/nom087.png" id="img-grand" class="zoomable-image">
+                        </li>
+                    </ol>
+                    </div>
+                     <div class="comentarios-dinamicos" data-section="BitNom" data-titulo="bitácora NOM087"></div>
+
+                </div> 
+
+                <!--Alertas inteligentes-->
+                <div class="sectionBlock">
+                    <h3 id="alertas-inteligentes"> Alertas inteligentes </h3>
+                    <div class="faq-item">
+                        <h4 id="uso-alertas-int">¿Cómo se utiliza Alertas inteligentes?</h4>
+                        <p> En la barra superior, del lado derecho se encuentra una campana, donde muestra si se tiene notificaciones</p>
+                    <img src="Imag/bitacoracom.png" id="img-grand" class="zoomable-image">
+                    <ol>
+                        <li>
+                            <p>Dele clic a la pantalla y le mostrará las notificaciones nuevas que tenga</p>
+                            <img src="Imag/notificaciones.png" id="img-grand" class="zoomable-image">
+                        </li>
+                        <li> Si selecciona la parte de ver más notificaciones, podrá ver todas sus notificaciones y dar una busqueda mas certera, ejemplo, si busca algúna fecha en especifico</li>
+                        <li>
+                            <p>Al abrir la pantalla de notificaciones completa, puede acerca el cursor a la notificación (a los 3 puntitos o al mapa), para obtener más detalle sobre esa notificación</p>
+                            <img src="Imag/notdetallada.png" id="img-grand" class="zoomable-image">
+                        </li>
+                    </ol>
+                    </div>
+                         <div class="comentarios-dinamicos" data-section="AlertasIn" data-titulo="Alertas Inteligentes"></div>
+
+                </div> 
+
+                <!--Co-piloto de IA-->
+                <div class="sectionBlock">
+                    <h3 id="co-piloto-ia"> Co-piloto de Inteligencia Artificial </h3>
+                    <div class="faq-item"> 
+                        <h4 id="uso-copiloto">¿Cómo se utiliza el Co-piloto de IA?</h4>
+                        <ol>
+                        <li>
+                                <p>Seleccione el ícono de la sección <strong>"Misiones"</strong>. 
+                                <img src="Imag/misión.png" ></p>
+                        </li>
+                                                        <p>Ubique su misión. Puede buscarla en el recuadro <strong>"Búsqueda"</strong> ingresando el ID de la misión, la organización o el origen.</p>
+                                <img src="Imag/Busqueda.png" id="img-medium" class="zoomable-image">
+                            </li>
+                            <li>
+                                <p>Una vez ubicada, acerque el cursor a la misión para habilitar los íconos de acción y seleccione el ícono de <strong>detalle</strong>.</p>
+                                <img src="Imag/detalleic.png">
+                            </li>
+                            <li>
+                                <p>Estando dentro de su misión, puede mencionar <strong>"Breiko Breiko"</strong> y darle las indicaciones que enviara a la torre de control</p>
+                            </li>
+                            <p>Esto evita que haya manipulación de tomar el celular y distraerse al manejar</p>
+                    </ol>
+                    </div>
+                        <div class="comentarios-dinamicos" data-section="Copiloto" data-titulo="Co-piloto IA"></div>
+
+                </div>
+
+                <!--Catálogo de activos-->
+                <div class="sectionBlock">
+                    <h3 id="catalogo-activos"> Catálogo de Activos </h3>
+                    <div class="faq-item">
+                        <h4 id="catalogoexis">¿Como visualizar el cátalogo ya existente</h4> 
+                        <ol>
+                        <li>
+                            <p>Diríjase al ícono de <strong>Cátalogos</strong></p> 
+                            <img src="Imag/catalogo.png">
+                        </li>
+                        <li>
+                            <p>En la siguiente pantalla podrá visualizar el cátalogo existente de Usuarios, Activos y Ubicaciones</p>
+                            <img src="Imag/exiscat.png" id="img-grand" class="zoomable-image">
+                        </li>
+                    </ol>
+                    
+                    <div class="comentarios-dinamicos" data-section="Catalogo" data-titulo="visualización de cátalogo activos"></div>
+
+                </div>
+
+
+                    <hr>
+
+                    <!--Registro unico-->
+                    <div class="faq-item">
+                        <h4 id="catalogo-activos-crear">¿Cómo crear un registro (usuarios, activos o ubicaciones)?</h4>
+                                            <ol>
+                        <li>
+                            <p>Diríjase al ícono de <strong>Cátalogos</strong></p> 
+                            <img src="Imag/catalogo.png">
+                        </li>
+                        <li>
+                            <p>Dependiendo lo que quiera agregar es a donde se tiene que dirigir, puede elegir "Usarios, activos o ubicación</p>
+                        </li>
+                        <li>
+                            <p>Una vez que entro a la sección deseada, ubique el botón "Nuevo usuarios, Nuevo activo, Nueva ubicación"</p>
+                            <img src="Imag/NuevUsuario.png"><img src="Imag/NuevAct.png"><img src="Imag/NuevUbi.png">
+                        </li>
+                        <li> 
+                            <p> Seleccione crear desde cero</p>
+                        </li>
+                        <li>
+                            <p>Ingrese la información solicitada según sea el caso, una vez que haya verificado que los datos son correctos, dele clic al botón crear.</p>
+                        </li>
+                    </ol>
+                        <div class="comentarios-dinamicos" data-section="CraerRegis" data-titulo="crear registro"></div>
+
+                    </div>
+
+                    <hr>
+                    
+                    <!--Registro de carga masivaS-->
+                    <div class="faq-item">
+                        <h4 id="catalogoCrearMas">¿Cómo crear un registro (usuarios, activos o ubicaciones) de carga masiva?</h4>         
+                        <ol>
+                        <li>
+                            <p>Diríjase al ícono de <strong>Cátalogos</strong></p> 
+                            <img src="Imag/catalogo.png">
+                        </li>
+                        <li>
+                            <p>Dependiendo lo que quiera agregar es a donde se tiene que dirigir, puede elegir "Usarios, activos o ubicación</p>
+                        </li>
+                        <li>
+                            <p>Una vez que entro a la sección deseada, ubique el botón "Nuevo usuarios, Nuevo activo, Nueva ubicación"</p>
+                            <img src="Imag/NuevUsuario.png"><img src="Imag/NuevAct.png"><img src="Imag/NuevUbi.png">
+                        </li>
+                        <li>
+                            <p>Seleccione nueva carga masiva</p>
+                        </li>
+                        <li>
+                            <p>Le aparecerá la siguiente pantalla</p>
+                            <img src="Imag/masivanuev.png" id="img-grand" class="zoomable-image">
+                            <p> Aquí podrá subir el archivo donde cuenta con todos los registros que desea subir, aparacerá una vista previa para visualizar 
+                            su archivo, para que lo verifique y este seguro de que sea la información que desea agregar</p>
+                            <img src="Imag/vismasuev.png" id="img-grand" class="zoomable-image">
+                        <li>
+                            <p> Seleccione el botón procesar archivo</p>
+                        </li>
+                        <li>
+                            <p> Tendrá que visualizar los que aparezcan en rojo y modificarlos hasta que sean correctos y se puedan procesar</p>
+                        </li>
+                        <h5>Información que necesita su archivo</h5>
+                                <p><strong>Para Carga masiva de usuarios</strong></p>
+                                <ol>
+                                    <li>Id del colaborador</li>
+                                    <li>Nombre Completo</li>
+                                    <li>Rol</li>
+                                    <li>Teléfono</li>
+                                    <li>Unidad operativa (opcional)</li>
+                                    <li>Fecha de ingreso</li>
+                                </ol>
+                                <p><strong>Para Carga masiva de ubicaciones</strong></p>
+                                <ol>
+                                    <li>Nombre de la ubicación</li>
+                                    <li>Coordenadas de la localidad</li>
+                                    <li>Calle y número</li>
+                                    <li>Código postal</li>
+                                    <li>Municipio</li>
+                                    <li>Colonia</li>
+                                    <li>País</li>
+                                    <li>Descripción</li>
+
+                                </ol>
+                        </li>
+                    </ol>           
+                    </div>
+                    <div class="comentarios-dinamicos" data-section="RegistroMas" data-titulo="crear registro de carga masiva"></div>
+
+                </div> 
+
+                <!--metricas inteligentes-->
+                <div class="sectionBlock">
+                    <h3 id="metricas-inteligentes"> Métricas Inteligentes </h3> 
+
+                    <div class="faq-item">
+                        <h4 id="vis-metricas">¿Cómo visualizar las métricas?</h4>
+                        <ol>
+                        <li>
+                            <p>Dirijase al ícono de <strong>métricas</strong></p>
+                            <img src="Imag/metricas.png">
+                        </li>
+                        <li>
+                            <p>Una vez que le haya mostrado la pantalla de métricas, puede colocar los parámetro que quiera visualizar, por ejemplo, período de tiempo del 4-10 de enero y la visualización sea diaria, y con ello ver las gráficas</p>
+                            <img src="Imag/metgraf.png" id="img-grand" class="zoomable-image">
+                        </li>
+                        </ol>
+                    </div>
+                    <div class="comentarios-dinamicos" data-section="Metricas" data-titulo="viasualización de métricas"></div>
+
+
+                </div> 
+
+
+                <!--Visibilidad controlada-->
+                <div class="sectionBlock">
+                    <h3 id="Visibilidad"> Visibilidad controlada</h3> 
+                    <div class="faq-item">
+                        <h4 id="VisiFuncio">¿Cómo utilizar la visibilidad controlada?</h4>
+                        <p>Esta función envía notificaciones automáticas a los clientes registrados para informarles cuando se programa un viaje hacia su destino.
+                            Para que se pueda enviar esa notificacón siga los siguientes pasos </p>
+                            <ol>
+                                <li> <p> Dirijase al ícono <strong>Misiones</strong></p>
+                                <img src="Imag/misión.png">
+                                <li>
+                                    <p>Ya que este en la pantalla de misiones busque el ícono de compartir</p>
+                                    <img src="Imag/compartir.png" id="img-grand" class="zoomable-image">
+                                </li>
+                                <li>
+                                    <p>Listo esto, dirijase a <strong>Agregar usuario</strong>, rellene el formulario que le aparezca y finalmente le tendrá que dar clic a <strong>Crear usuario</strong></p>
+                                    <img src="Imag/usuario.png" id="img-grand" class="zoomable-image">
+                                </li>
+                            </li>
+                            </ol>
+                         <div class="comentarios-dinamicos" data-section="VisibilidadCOntr" data-titulo="Visibilidad controlada"></div>
+
+                    </div>
+                </div> 
+            </div>
+        </div> 
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.14.2/dist/algoliasearch-lite.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-theme-classic" />
+        
+    <script type="module" src="script.js"></script>
+    <script type="module" src="firebase-config.js"></script>
+    
+    <footer>
+        <div class="contenedor">
+            <h2 class="titulo-footer">¿Tiene alguna otra duda?</h2>
+            <h3 class="subtitulo-footer">Puede escribirla en el siguiente formulario y le daremos una solución</h3>
+            <div class="footer">
+                <form id="footer-form" action="https://formsubmit.co/mguzman.h26@gmail.com" method="POST">
+                    <input type="text" name="nombre" placeholder="Nombre" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea name="comentario" cols="30" rows="10" placeholder="Ingrese su mensaje..." required></textarea>
+                    
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="submit" value="Enviar" id="btn-enviar-footer">
+                </form>
+
+                <div id="mensaje-exito" style="display:none; text-align: center; padding: 20px; background: #f0ebf8; border-radius: 10px; border: 2px solid #574381;">
+                    <span style="font-size: 40px;">✅</span>
+                    <h3 style="color: #574381; margin-top: 10px;">¡Mensaje enviado!</h3>
+                    <p style="color: #65676b;">Gracias por contactarnos, te responderemos pronto a tu correo.</p>
+                    <button onclick="location.reload()" style="background: #574381; color: white; border: none; padding: 5px 15px; border-radius: 20px; cursor: pointer; margin-top: 10px;">Enviar otro</button>
+                </div>
+                <div id="mensaje-error" style="display:none; text-align: center; padding: 20px; background: #fff1f1; border-radius: 10px; border: 2px solid #b32d2d; color: #b32d2d; margin-top: 10px;">
+                <span>❌</span>
+                <p>Por el momento no se envió, intente más tarde.</p>
+            </div>
+            </div>
+            </div>
+        </div>
+    </footer>
+    <button id="scrollToTopBtn" class="scroll-to-top-button" title="Volver arriba">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 4l-8 8h6v8h4v-8h6l-8-8z"/>
+        </svg>
+    </button>
+</body>
+</html>
