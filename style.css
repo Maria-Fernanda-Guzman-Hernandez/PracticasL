@@ -362,11 +362,11 @@ html {
 }
 
 [id] {
-    scroll-margin-top: 150px; 
+    scroll-margin-top: 180px !important;
 }
 
-section, h2, h3, .pregunta {
-    scroll-margin-top: 150px;
+.pregunta, h2, h3, section {
+    scroll-margin-top: 180px !important;
 }
 
 .sectionBlock {
